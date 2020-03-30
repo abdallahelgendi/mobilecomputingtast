@@ -7,7 +7,7 @@ from sklearn import svm
 path = "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data"
 headernames = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'Class']
 dataset = pd.read_csv(path, names = headernames)
-X = dataset.iloc[:, :4].values
+X = dataset.iloc[:, :2].values
 y = dataset.iloc[:, 4].values
 print(dataset)
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.30)
