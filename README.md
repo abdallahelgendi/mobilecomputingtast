@@ -1,13 +1,13 @@
 # mobilecomputingtask
 
-#Randomforest result
+##Randomforest result
 ![Image](./randomforest_result.PNG)
 
-#Decisiontree result
+##Decisiontree result
 ![Image](./decisiontree_result.PNG)
 
-#SVM result
+##SVM result
 ![Image](./svc_result.png)
 
-#NN result
+##NN result
 ![Image](./nn_result.PNG)
